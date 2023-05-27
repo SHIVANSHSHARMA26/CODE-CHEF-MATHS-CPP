@@ -6,7 +6,7 @@ int main() {
 	cin>>t;
 	while(t--){
 	    cin>>x>>y;
-	    if(x<=y){cout<<"YES"<<"\n";}
+	    if(y%x==0){cout<<"YES"<<"\n";}
 	    else{cout<<"NO"<<"\n";}
 	}
 	return 0;
