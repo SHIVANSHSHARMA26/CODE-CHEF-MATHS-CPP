@@ -8,11 +8,9 @@ int main() {
 	    cin>>x>>y;
 	    x=x*10;
          y=y*5;
-	    cout<<x<<"\n"<<y;
-	   
 	    if(x>y){cout<<"FIRST"<<"\n";}
-	    else if(x=y){cout<<"ANY"<<"\n";}
 	    else if(x<y){cout<<"SECOND"<<"\n";}
+	    else if(y=x){cout<<"ANY"<<"\n";}
 	}
 	return 0;
 }
